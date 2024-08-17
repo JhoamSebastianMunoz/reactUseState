@@ -1,0 +1,16 @@
+.form{
+    border: 0.1rem solid blue;
+    text-align: center;
+    padding: 1rem;
+}
+.input{
+    background-color: white;
+    margin: 0.5rem;
+}
+.button{
+    background-color: green;
+    margin: 0.8rem;
+}
+.button:hover{
+    background-color: rgb(25, 231, 25);
+}

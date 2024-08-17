@@ -1,0 +1,18 @@
+.divButton{
+    display: flex;
+    gap: 0.3rem;
+    padding: 0.7rem;
+}
+.buton{
+    background-color: rgb(54, 12, 243);
+}
+.buton:hover{
+    cursor: pointer;
+    background-color: rgb(42, 177, 201);
+}
+.input-num1{
+    background-color: white;
+}
+.input-num2{
+    background-color: white;
+}

@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    gap: 3rem;
+}
+.img-logo{
+    max-width: 6rem;
+    max-height: 6rem;
+    border-radius:10%;
+    margin: 0.5rem;
+}
