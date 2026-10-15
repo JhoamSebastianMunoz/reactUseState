@@ -1,16 +1,11 @@
-import React from 'react'
-import { Ejer1 } from '../../components/Ejer1/Ejer1'
+import './Main.css'
 
-
-export const Main = () => {
-    return (
-    <main>
-        <Ejer1/>
+export const Main = ({ children }) => {
+  return (
+    <main className="main" id="contenido">
+      <div className="sheet">
+        {children}
+      </div>
     </main>
-    )
+  )
 }
-
-
-
-
-

@@ -1,0 +1,45 @@
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: var(--s6) var(--s4);
+}
+
+.sheet {
+  width: 100%;
+  max-width: var(--page-width);
+  align-self: flex-start;
+  padding: clamp(1.25rem, 4vw, 2.75rem);
+  background-color: var(--sheet);
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 25px,
+      rgba(76, 96, 114, 0.09) 25px,
+      rgba(76, 96, 114, 0.09) 26px
+    ),
+    repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent 25px,
+      rgba(76, 96, 114, 0.07) 25px,
+      rgba(76, 96, 114, 0.07) 26px
+    );
+  border: 1px solid var(--grid);
+  border-radius: 2px;
+  box-shadow:
+    0 1px 2px rgba(31, 52, 72, 0.05),
+    0 12px 28px rgba(31, 52, 72, 0.07);
+}
+
+.sheet--narrow {
+  max-width: 34rem;
+}
+
+@media (max-width: 560px) {
+  .main {
+    padding: var(--s4) var(--s2);
+  }
+}

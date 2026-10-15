@@ -1,15 +1,10 @@
-import React from 'react'
+import { Main } from '../../layouts/Main/Main'
 import { Ejer3 } from '../../components/Ejer3/Ejer3'
-
 
 export const Ejercicio3 = () => {
     return (
-    <main>
-        <Ejer3/>
-    </main>
+    <Main>
+        <Ejer3 />
+    </Main>
     )
 }
-
-
-
-

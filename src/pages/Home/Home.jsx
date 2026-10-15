@@ -1,14 +1,10 @@
-import React from 'react';
 import { Main } from '../../layouts/Main/Main';
-import '../Home/Home.css'
-
+import { Ejer1 } from '../../components/Ejer1/Ejer1'
 
 export const Home = () => {
     return (
-    <div className='home'>
-        <Main/>
-    </div>
+    <Main>
+        <Ejer1 />
+    </Main>
     );
 };
-
-

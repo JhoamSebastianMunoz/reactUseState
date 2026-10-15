@@ -1,16 +1,19 @@
-.form{
-    border: 0.1rem solid blue;
-    text-align: center;
-    padding: 1rem;
+.form {
+  width: 100%;
 }
-.input{
-    background-color: white;
-    margin: 0.5rem;
+
+.form__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: var(--s3);
+  width: 100%;
 }
-.button{
-    background-color: green;
-    margin: 0.8rem;
+
+.form__submit {
+  margin-top: var(--s4);
 }
-.button:hover{
-    background-color: rgb(25, 231, 25);
+
+.form__count {
+  font-size: 0.875rem;
+  color: var(--ink-2);
 }

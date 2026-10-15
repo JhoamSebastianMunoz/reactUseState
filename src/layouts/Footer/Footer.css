@@ -1,0 +1,11 @@
+.footer {
+  width: 100%;
+  padding: var(--s3) var(--s4) var(--s5);
+}
+
+.footer__inner {
+  max-width: var(--page-width);
+  margin-inline: auto;
+  font-size: 0.875rem;
+  color: var(--ink-2);
+}
