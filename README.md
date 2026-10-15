@@ -11,8 +11,11 @@
 [![React Router](https://img.shields.io/badge/React_Router-6-CA4245?style=flat-square&logo=reactrouter&logoColor=white)](https://reactrouter.com)
 [![SweetAlert2](https://img.shields.io/badge/SweetAlert2-11-666666?style=flat-square)](https://sweetalert2.github.io)
 [![ESLint](https://img.shields.io/badge/ESLint-9-4B32C3?style=flat-square&logo=eslint&logoColor=white)](https://eslint.org)
+[![Demo](https://img.shields.io/badge/Demo-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://react-use-state-ten.vercel.app)
 
 [Descripción](#descripción) • [Ejercicios](#ejercicios) • [Puesta en marcha](#puesta-en-marcha) • [Scripts](#scripts) • [Estructura del proyecto](#estructura-del-proyecto) • [Recursos](#recursos)
+
+**Demo en producción:** [https://react-use-state-ten.vercel.app](https://react-use-state-ten.vercel.app)
 
 </div>
 
@@ -64,6 +67,9 @@ Cada ejercicio vive en su propio componente y ruta, así que puedes ir directame
 > Prueba el enrutamiento editando la barra de direcciones: cualquier ruta distinta a las cinco anteriores muestra la página 404.
 
 ## Puesta en marcha
+
+> [!TIP]
+> ¿Quieres verla en acción sin instalar nada? Usa la aplicación ya desplegada en [https://react-use-state-ten.vercel.app](https://react-use-state-ten.vercel.app).
 
 ### Requisitos previos
 
