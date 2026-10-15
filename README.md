@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./src/assets/GATO1-1.gif" alt="reactUseState logo" height="96" />
+<img src="./src/assets/GATO1-1.gif" alt="Logo de reactUseState" height="96" />
 
 # reactUseState
 
-*Five practical exercises to master React's `useState` hook*
+*Cinco ejercicios prácticos para dominar el hook `useState` de React*
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
@@ -12,68 +12,68 @@
 [![SweetAlert2](https://img.shields.io/badge/SweetAlert2-11-666666?style=flat-square)](https://sweetalert2.github.io)
 [![ESLint](https://img.shields.io/badge/ESLint-9-4B32C3?style=flat-square&logo=eslint&logoColor=white)](https://eslint.org)
 
-[Overview](#overview) • [Exercises](#exercises) • [Getting started](#getting-started) • [Scripts](#scripts) • [Project structure](#project-structure) • [Resources](#resources)
+[Descripción](#descripción) • [Ejercicios](#ejercicios) • [Puesta en marcha](#puesta-en-marcha) • [Scripts](#scripts) • [Estructura del proyecto](#estructura-del-proyecto) • [Recursos](#recursos)
 
 </div>
 
-## Overview
+## Descripción
 
-`reactUseState` is a small Vite + React application built for a web development practice exam. It demonstrates the most common uses of the [`useState`](https://react.dev/reference/react/useState) hook through five independent exercises: controlled inputs, arithmetic operations, dynamic styles, object and array state, and form handling.
+`reactUseState` es una pequeña aplicación construida con Vite + React para una práctica de examen de desarrollo web. Demuestra los usos más comunes del hook [`useState`](https://react.dev/reference/react/useState) mediante cinco ejercicios independientes: inputs controlados, operaciones aritméticas, estilos dinámicos, estado con objetos y arrays, y manejo de formularios.
 
-Every exercise lives in its own component and route, so you can jump straight to the one you want to review from the top navigation bar. Unknown URLs fall back to a custom 404 page.
+Cada ejercicio vive en su propio componente y ruta, así que puedes ir directamente al que quieras repasar desde la barra de navegación superior. Las rutas desconocidas muestran una página 404 personalizada.
 
 > [!NOTE]
-> The app UI is in Spanish. English explanations are given below, with each original exam statement quoted verbatim in Spanish.
+> Esta práctica fue desarrollada como examen. Cada enunciado se muestra tal como fue planteado originalmente.
 
-## Features
+## Características
 
-- **Five focused exercises** covering the main `useState` patterns
-- **Client-side routing** with [React Router v6](https://reactrouter.com), plus a catch-all 404 route
-- **Form handling with duplicate detection**, using [SweetAlert2](https://sweetalert2.github.io) alerts
-- **Fast dev workflow** with [Vite](https://vitejs.dev) and hot module replacement
-- **ESLint** configured with React and hooks rules
+- **Cinco ejercicios enfocados** que cubren los patrones principales de `useState`
+- **Enrutamiento del lado del cliente** con [React Router v6](https://reactrouter.com), más una ruta comodín 404
+- **Manejo de formularios con detección de duplicados**, usando alertas de [SweetAlert2](https://sweetalert2.github.io)
+- **Flujo de desarrollo rápido** con [Vite](https://vitejs.dev) y recarga de módulos en caliente (HMR)
+- **ESLint** configurado con reglas de React y hooks
 
-## Exercises
+## Ejercicios
 
-1. **Greeting** — route `/`
-   Renders a live `Bienvenido {name}` greeting as you type a full name.
+1. **Saludo** — ruta `/`
+   Muestra en vivo el saludo `Bienvenido {name}` mientras escribes el nombre completo.
 
    > Realiza un componente que capture por medio de inputs: Nombre completo cree el siguiente saludo: “Bienvenido 'Nombre'” (Realizado en clase)
 
-2. **Calculator** — route `/Ejercicio2`
-   Two number inputs and four buttons (add, subtract, multiply, divide) that show the result in an `<h2>`.
+2. **Calculadora** — ruta `/Ejercicio2`
+   Dos campos numéricos y cuatro botones (sumar, restar, multiplicar, dividir) que muestran el resultado en un `<h2>`.
 
    > Realiza un programa que realice las 4 operaciones básicas capturando dos números en inputs y mostrando el resultado en un h2(4 botones: sumar, restar, multiplicar, dividir)
 
-3. **Random background** — route `/Ejercicio3`
-   A button picks a random color and applies it to the application background.
+3. **Fondo aleatorio** — ruta `/Ejercicio3`
+   Un botón elige un color al azar y lo aplica al fondo de la aplicación.
 
    > Realice un programa que por medio de un botón genere un color aleatorio y lo coloque en el fondo de la aplicación.
 
-4. **Registration form** — route `/Ejercicio4`
-   Name, username, email, phone and password stored in an array state, with alerts when the user already exists.
+4. **Formulario de registro** — ruta `/Ejercicio4`
+   Nombre, usuario, correo, teléfono y contraseña guardados en un estado de tipo array, con alertas cuando el usuario ya existe.
 
    > Realice un programa que por medio de un formulario: nombre, usuario, correo, teléfono, contraseña. registre en un array con el objeto de esta persona, en caso de que ya exista devuelva una alerta notificando la novedad.
 
-5. **Task capture** — route `/Ejercicio5`
-   Two inputs (task name and description) combined into a single preview field.
+5. **Captura de tareas** — ruta `/Ejercicio5`
+   Dos campos (nombre de la tarea y descripción) combinados en un único campo de vista previa.
 
    > Realice un programa que capture en un input la tarea que el usuario guarde en 2 input(nombre de la tarea, descripción).
 
 > [!TIP]
-> Try the routing by editing the address bar — any path other than the five routes above renders the 404 page.
+> Prueba el enrutamiento editando la barra de direcciones: cualquier ruta distinta a las cinco anteriores muestra la página 404.
 
-## Getting started
+## Puesta en marcha
 
-### Prerequisites
+### Requisitos previos
 
-- [Node.js](https://nodejs.org) 18 or later
-- npm 9 or later (bundled with Node.js)
+- [Node.js](https://nodejs.org) 18 o superior
+- npm 9 o superior (incluido con Node.js)
 
 > [!IMPORTANT]
-> Vite 5 requires Node.js 18+. Check your version with `node -v` before installing.
+> Vite 5 requiere Node.js 18 o superior. Verifica tu versión con `node -v` antes de instalar.
 
-### Installation
+### Instalación
 
 ```bash
 git clone https://github.com/JhoamSebastianMunoz/reactUseState.git
@@ -81,57 +81,57 @@ cd reactUseState
 npm install
 ```
 
-### Run the app
+### Ejecutar la aplicación
 
 ```bash
 npm run dev
 ```
 
-Then open [http://localhost:5173](http://localhost:5173) in your browser. The dev server reloads automatically whenever you save a file.
+Luego abre [http://localhost:5173](http://localhost:5173) en tu navegador. El servidor de desarrollo recarga la aplicación automáticamente cada vez que guardas un archivo.
 
 ## Scripts
 
-| Command | Description |
+| Comando | Descripción |
 | ------- | ----------- |
-| `npm run dev` | Start the development server with HMR. |
-| `npm run build` | Create an optimized production build in `dist/`. |
-| `npm run preview` | Serve the production build locally. |
-| `npm run lint` | Run ESLint over the project. |
+| `npm run dev` | Inicia el servidor de desarrollo con HMR. |
+| `npm run build` | Crea una compilación optimizada de producción en `dist/`. |
+| `npm run preview` | Sirve localmente la compilación de producción. |
+| `npm run lint` | Ejecuta ESLint sobre el proyecto. |
 
 > [!NOTE]
-> No test runner is configured for this project; `npm run lint` is the available static check.
+> No hay un ejecutor de pruebas configurado en este proyecto; `npm run lint` es la verificación estática disponible.
 
-## Project structure
+## Estructura del proyecto
 
 ```
 reactUseState/
-├── index.html                # Vite entry HTML
-├── vite.config.js            # Vite + React plugin configuration
-├── eslint.config.js          # Flat ESLint configuration
+├── index.html                # HTML de entrada de Vite
+├── vite.config.js            # Configuración de Vite + plugin de React
+├── eslint.config.js          # Configuración plana de ESLint
 ├── public/
 │   └── vite.svg              # Favicon
 └── src/
-    ├── main.jsx              # Mounts <App/> inside <BrowserRouter>
-    ├── App.jsx               # Layout and route definitions
+    ├── main.jsx              # Monta <App/> dentro de <BrowserRouter>
+    ├── App.jsx               # Diseño general y definición de rutas
     ├── components/
-    │   ├── Ejer1/ … Ejer5/   # The five exercise components
-    │   ├── Navbar/           # Top navigation bar
-    │   └── NavItem/          # NavLink wrapper used by the navbar
+    │   ├── Ejer1/ … Ejer5/   # Los cinco componentes de ejercicios
+    │   ├── Navbar/           # Barra de navegación superior
+    │   └── NavItem/          # Envoltorio de NavLink usado por el navbar
     ├── layouts/
     │   ├── Header/           # Navbar + logo
-    │   ├── Main/             # Renders exercise 1 on the home page
+    │   ├── Main/             # Renderiza el ejercicio 1 en la página de inicio
     │   └── Footer/
     ├── pages/
-    │   ├── Home/             # "/" route
-    │   ├── Ejercicio2/ … Ejercicio5/   # One page wrapper per exercise
-    │   └── NotFound/         # "*" route
-    └── assets/               # Images and GIFs
+    │   ├── Home/             # Ruta "/"
+    │   ├── Ejercicio2/ … Ejercicio5/   # Un wrapper de página por ejercicio
+    │   └── NotFound/         # Ruta "*"
+    └── assets/               # Imágenes y GIFs
 ```
 
-## Resources
+## Recursos
 
-- [React — `useState` reference](https://react.dev/reference/react/useState)
-- [React — Adding state to a component](https://react.dev/learn/describing-the-ui#adding-state-to-a-component)
+- [React — Referencia de `useState`](https://react.dev/reference/react/useState)
+- [React — Añadir estado a un componente](https://react.dev/learn/describing-the-ui#adding-state-to-a-component)
 - [React Router v6](https://reactrouter.com/en/main)
-- [Vite — Getting started](https://vitejs.dev/guide/)
+- [Vite — Primeros pasos](https://vitejs.dev/guide/)
 - [SweetAlert2](https://sweetalert2.github.io/)
